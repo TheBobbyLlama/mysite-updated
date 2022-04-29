@@ -1,8 +1,7 @@
 {
   "files": {
     "main.css": "/mysite-updated/static/css/main.198a4f43.css",
-    "main.js": "/mysite-updated/static/js/main.a4af8e9b.js",
-    "static/js/787.d278ced4.chunk.js": "/mysite-updated/static/js/787.d278ced4.chunk.js",
+    "main.js": "/mysite-updated/static/js/main.f8282ad2.js",
     "static/media/architecture-2178604_1920-main1.jpg": "/mysite-updated/static/media/architecture-2178604_1920-main1.66d1579cec94bfc059b0.jpg",
     "static/media/apple-1838564_1920-main.jpg": "/mysite-updated/static/media/apple-1838564_1920-main.4a6cfe1a160f96454b7b.jpg",
     "static/media/luvtalklogo.png": "/mysite-updated/static/media/luvtalklogo.0da8fe28476a76283c0c.png",
@@ -19,11 +18,10 @@
     "static/media/facebook.svg": "/mysite-updated/static/media/facebook.9239683b5a8c7bdaf06f18ce5c860850.svg",
     "index.html": "/mysite-updated/index.html",
     "main.198a4f43.css.map": "/mysite-updated/static/css/main.198a4f43.css.map",
-    "main.a4af8e9b.js.map": "/mysite-updated/static/js/main.a4af8e9b.js.map",
-    "787.d278ced4.chunk.js.map": "/mysite-updated/static/js/787.d278ced4.chunk.js.map"
+    "main.f8282ad2.js.map": "/mysite-updated/static/js/main.f8282ad2.js.map"
   },
   "entrypoints": [
     "static/css/main.198a4f43.css",
-    "static/js/main.a4af8e9b.js"
+    "static/js/main.f8282ad2.js"
   ]
 }
