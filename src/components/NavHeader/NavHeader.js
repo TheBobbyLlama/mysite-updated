@@ -31,7 +31,7 @@ export default function NavHeader({ children }) {
             </div>
           </Col>
 
-          <Col xs={11} sm={11} md={11} lg={11} className="text-right">
+          <Col xs={11} sm={11} md={11} lg={11} className="text-end">
             <nav className="primary-nav">
               <ul>{navButtons}</ul>
             </nav>

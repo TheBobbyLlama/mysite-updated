@@ -11,6 +11,12 @@
 .entry-banner h1 {
   font-family: "Source Sans Pro", Arial, sans-serif;
 }
+
+.banner-buttons .btn-border {
+  min-width: 60%;
+  width: auto !important;
+}
+
 #hello {
   font-size: 28pt;
 }

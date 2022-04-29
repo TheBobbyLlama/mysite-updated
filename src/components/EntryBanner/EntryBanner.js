@@ -16,21 +16,19 @@ export default function EntryBanner() {
           </div>
         </Row>
 
-        <div className="row text-center">
-          <div className="banner-buttons">
-            <Col sm={1} md={1} className="col-sm-offset-5 col-md-offset-5">
-              <a className="btn btn-default btn-border" href="#about">
-                Info
-              </a>
-            </Col>
+        <Row className="text-center banner-buttons">
+          <Col sm={2} md={2} className="offset-sm-4 offset-md-4 text-end">
+            <a className="btn btn-default btn-border" href="#about">
+              Info
+            </a>
+          </Col>
 
-            <Col sm={1} md={1}>
-              <a className="btn btn-default btn-border" href="#projects">
-                Portfolio
-              </a>
-            </Col>
-          </div>
-        </div>
+          <Col sm={2} md={2}>
+            <a className="btn btn-default btn-border" href="#projects">
+              Portfolio
+            </a>
+          </Col>
+        </Row>
       </Container>
     </section>
   );

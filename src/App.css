@@ -47,3 +47,7 @@
   background-color: #464646;
   color: white;
 }
+
+.img-responsive {
+  width: 100%;
+}

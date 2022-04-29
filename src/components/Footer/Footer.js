@@ -10,7 +10,7 @@ import "./Footer.css";
 
 const footerInfo = [
   {
-    className: "col-sm-offset-4 col-md-offset-4",
+    className: "offset-sm-4 offset-md-4",
     name: "facebook",
     image: facebookSVG,
   },
@@ -32,22 +32,20 @@ export default function Footer() {
   return (
     <footer className="footer">
       <Container fluid>
-        <Row>
-          <div className="media-links">
-            {footerInfo.map((item) => (
-              <FooterLink key={item.name} {...item} />
-            ))}
-          </div>
+        <Row className="media-links">
+          {footerInfo.map((item) => (
+            <FooterLink key={item.name} {...item} />
+          ))}
         </Row>
 
         <Row>
-          <Col sm={6} md={6} className="text-right">
+          <Col sm={6} md={6} className="text-end">
             <div className="personal-contact phone">
               <h4>Phone: XXXXXX</h4>
             </div>
           </Col>
 
-          <Col sm={6} md={6} className="text-left">
+          <Col sm={6} md={6} className="text-start">
             <div className="personal-contact email-personal-contact">
               <h4>Email: XXXXX@gmail.com</h4>
             </div>

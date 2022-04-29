@@ -8,7 +8,7 @@ export default function ContactForm() {
         <Container fluid>
           <Row>
             <Col sm={12} md={12} classname="text-center">
-              <div className="contact-header">
+              <div className="contact-header text-center">
                 <h1>Contact</h1>
               </div>
             </Col>
@@ -16,7 +16,7 @@ export default function ContactForm() {
 
           <Row>
             <Col sm={12} md={12} classname="text-center">
-              <div className="contact-header-quote">
+              <div className="contact-header-quote text-center">
                 <h4>"XXXXX"</h4>
                 <h4>-XXX</h4>
               </div>
@@ -85,11 +85,7 @@ export default function ContactForm() {
                   </Row>
 
                   <Row>
-                    <Col
-                      sm={4}
-                      md={4}
-                      className="col-sm-offset-4 col-md-offset-4"
-                    >
+                    <Col sm={4} md={4} className="offset-sm-4 offset-md-4">
                       <div className="submit-contact">
                         <a className="btn btn-default btn-border" href="#">
                           Submit

@@ -17,7 +17,9 @@ textarea {
   font-family: "Roboto", Helvetica, serif;
 }
 .contact-header-quote {
+  display: flex;
   font-style: italic;
+  justify-content: center;
 }
 .contact-header-quote h4 {
   margin: 5px 0;
