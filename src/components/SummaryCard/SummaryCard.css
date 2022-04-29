@@ -1,0 +1,11 @@
+.summaryCard {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.summaryCard h3 {
+  font-family: "Source Sans Pro", Arial, sans-serif;
+}
+.summaryCard p {
+  font-family: "Roboto", Helvetica, serif;
+}
