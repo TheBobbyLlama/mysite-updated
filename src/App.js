@@ -10,8 +10,8 @@ function App() {
     <div className="App">
       <NavHeader>
         <Link to="/">Home</Link>
-        <div>Portfolio</div>
-        <div>Contact</div>
+        <Link to="/portfolio">Portfolio</Link>
+        <Link to="/contact">Contact</Link>
       </NavHeader>
       <Outlet />
       <Footer />

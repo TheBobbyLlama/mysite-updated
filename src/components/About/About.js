@@ -1,28 +1,30 @@
+import { Container, Row, Col } from "react-bootstrap";
+
 import "./About.css";
 
 export default function About() {
   return (
-    <div className="about" id="about">
-      <div className="container-fluid">
-        <div className="row">
-          <div className="col-sm-12 col-md-12 text-center">
+    <section className="about" id="about">
+      <Container fluid>
+        <Row>
+          <Col sm={12} md={12} className="text-center">
             <div className="about-header">
               <h1>About Me</h1>
             </div>
-          </div>
-        </div>
+          </Col>
+        </Row>
 
-        <div className="row">
-          <div className="col-sm-12 col-md-12 text-center">
+        <Row>
+          <Col sm={12} md={12} className="text-center">
             <div className="about-header-quote">
               <h3>Sharing a little bit of my story...</h3>
             </div>
-          </div>
-        </div>
+          </Col>
+        </Row>
 
-        <div className="row">
+        <Row>
           <div className="about-general-description ">
-            <div className="col-sm-8 col-md-8 ">
+            <Col sm={8} md={8}>
               <h2>General Overview</h2>
               <p>
                 Lorem Ipsum is simply dummy text of the printing and typesetting
@@ -36,14 +38,14 @@ export default function About() {
                 publishing software like Aldus PageMaker including versions of
                 Lorem Ipsum
               </p>
-            </div>
+            </Col>
           </div>
-        </div>
+        </Row>
 
-        <div className="row">
+        <Row>
           <div className="statistic-row">
             <div className="about-statistic-description">
-              <div className="col-sm-8 col-md-8">
+              <Col sm={8} md={8}>
                 <h2>Statistics</h2>
                 <h5>
                   <em>And for those that don't fancy reading:</em>
@@ -54,23 +56,23 @@ export default function About() {
                 <p>Five feet 110 inches</p>
                 <p>Favorite fonts:Roboto </p>
                 <p>Loves to learn new things</p>
-              </div>
+              </Col>
             </div>
           </div>
-        </div>
+        </Row>
 
-        <div className="row">
+        <Row>
           <div className="about-option-buttons">
-            <div className="col-sm-2 col-md-2">
+            <Col sm={2} md={2}>
               <a href="#contact" className="btn btn-default btn-black-border">
                 Contact
               </a>
-            </div>
+            </Col>
           </div>
-        </div>
+        </Row>
 
         {/* Include arrow to show timeline */}
-      </div>
-    </div>
+      </Container>
+    </section>
   );
 }

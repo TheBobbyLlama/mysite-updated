@@ -1,3 +1,5 @@
+import { Container, Row } from "react-bootstrap";
+
 import SummaryCard from "../SummaryCard/SummaryCard";
 
 import developerSVG from "../../assets/images/developerdesign.svg";
@@ -32,14 +34,14 @@ const summaryInfo = [
 
 export default function Summary() {
   return (
-    <div className="summary">
-      <div className="container-fluid">
-        <div className="row">
+    <section className="summary">
+      <Container fluid>
+        <Row>
           {summaryInfo.map((info) => (
             <SummaryCard key={info.header} {...info} />
           ))}
-        </div>
-      </div>
-    </div>
+        </Row>
+      </Container>
+    </section>
   );
 }

@@ -4,8 +4,6 @@ import Summary from "../../components/Summary/Summary";
 import Projects from "../../components/Projects/Projects";
 import ContactForm from "../../components/ContactForm/ContactForm";
 
-import "./Home.css";
-
 export default function Home() {
   return (
     <>

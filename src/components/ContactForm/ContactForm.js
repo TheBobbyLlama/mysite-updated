@@ -1,29 +1,30 @@
+import { Container, Row, Col } from "react-bootstrap";
 import "./ContactForm.css";
 
 export default function ContactForm() {
   return (
     <>
-      <div className="contact" id="contact">
-        <div className="container-fluid">
-          <div className="row">
-            <div className="col-sm-12 col-md-12 text-center">
+      <section className="contact" id="contact">
+        <Container fluid>
+          <Row>
+            <Col sm={12} md={12} classname="text-center">
               <div className="contact-header">
                 <h1>Contact</h1>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
 
-          <div className="row">
-            <div className="col-sm-12 col-md-12 text-center">
+          <Row>
+            <Col sm={12} md={12} classname="text-center">
               <div className="contact-header-quote">
                 <h4>"XXXXX"</h4>
                 <h4>-XXX</h4>
               </div>
-            </div>
-          </div>
+            </Col>
+          </Row>
 
-          <div className="row">
-            <div className="col-sm-6 col-md-6">
+          <Row>
+            <Col sm={6} md={6}>
               <div className="contact-instructions">
                 <h2>Reaching out to me</h2>
                 <p>
@@ -44,60 +45,64 @@ export default function ContactForm() {
                 <p>(XXXX)-445-7747</p>
                 <p>XXXXXX@gmail.com</p>
               </div>
-            </div>
+            </Col>
 
-            <div className="col-sm-6 col-md-6">
+            <Col sm={6} md={6}>
               <div className="contact-form-body">
                 <form>
-                  <div className="row">
-                    <div className="col-sm-6 col-md-6">
+                  <Row>
+                    <Col sm={6} md={6}>
                       <div className="firstname">
                         <h4>Full Name *</h4>
                         <input type="text" placeholder="First Name" />
                       </div>
-                    </div>
+                    </Col>
 
-                    <div className="col-sm-6 col-md-6">
+                    <Col sm={6} md={6}>
                       <div className="lastname">
                         <h4>Full Name *</h4>
                         <input type="text" placeholder="Last Name" />
                       </div>
-                    </div>
-                  </div>
+                    </Col>
+                  </Row>
 
-                  <div className="row">
-                    <div className="col-sm-12 col-md-12">
+                  <Row>
+                    <Col sm={12} md={12}>
                       <div className="email">
                         <h4>Email *</h4>
                         <input type="email" placeholder="Email" />
                       </div>
-                    </div>
-                  </div>
+                    </Col>
+                  </Row>
 
-                  <div className="row">
-                    <div className="col-sm-12 col-md-12">
+                  <Row>
+                    <Col sm={12} md={12}>
                       <div className="message">
                         <h4>Message *</h4>
                         <textarea placeholder="Message"></textarea>
                       </div>
-                    </div>
-                  </div>
+                    </Col>
+                  </Row>
 
-                  <div className="row">
-                    <div className="col-sm-4 col-md-4 col-sm-offset-4 col-md-offset-4">
+                  <Row>
+                    <Col
+                      sm={4}
+                      md={4}
+                      className="col-sm-offset-4 col-md-offset-4"
+                    >
                       <div className="submit-contact">
                         <a className="btn btn-default btn-border" href="#">
                           Submit
                         </a>
                       </div>
-                    </div>
-                  </div>
+                    </Col>
+                  </Row>
                 </form>
               </div>
-            </div>
-          </div>
-        </div>
-      </div>
+            </Col>
+          </Row>
+        </Container>
+      </section>
     </>
   );
 }

@@ -1,10 +1,12 @@
+import { Container, Row, Col } from "react-bootstrap";
+
 import "./EntryBanner.css";
 
 export default function EntryBanner() {
   return (
-    <div className="main">
-      <div className="container-fluid">
-        <div className="row">
+    <section className="main">
+      <Container fluid>
+        <Row>
           <div className="entry-banner text-center">
             <h1 id="hello">Hello, I'm</h1>
             <h1 id="name">XXXX</h1>
@@ -12,24 +14,24 @@ export default function EntryBanner() {
               UI Developer. UX Designer. Problem Solver.
             </h1>
           </div>
-        </div>
+        </Row>
 
         <div className="row text-center">
           <div className="banner-buttons">
-            <div className="col-sm-1 col-md-1 col-sm-offset-5 col-md-offset-5">
+            <Col sm={1} md={1} className="col-sm-offset-5 col-md-offset-5">
               <a className="btn btn-default btn-border" href="#about">
                 Info
               </a>
-            </div>
+            </Col>
 
-            <div className="col-sm-1 col-md-1">
+            <Col sm={1} md={1}>
               <a className="btn btn-default btn-border" href="#projects">
                 Portfolio
               </a>
-            </div>
+            </Col>
           </div>
         </div>
-      </div>
-    </div>
+      </Container>
+    </section>
   );
 }
